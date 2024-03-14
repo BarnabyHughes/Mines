@@ -1,0 +1,37 @@
+mines:
+  dirt-mine:
+    corner-1:
+      world:
+      x:
+      y:
+      z:
+    corner-2:
+      world:
+      x:
+      y:
+      z:
+    blocks:
+      DIRT:
+        respawn-time: 2 #in seconds
+        drops:
+          FRAGMENT: 0.4
+          SOMETHINGELSE: 0.96 #percent
+
+
+items:
+  FRAGMENT:
+    material: PRISMARINE_CRYSTALS
+    name: "&dFRAGMENT"
+    lore:
+      - "&7Idk"
+      - ""
+      - "&d&lSPECIAL"
+    message: "&fYou found &d&lSPECIAL&f treasure!"
+  SOMETHINGELSE:
+    material: PRISMARINE_CRYSTALS
+    name: "&cSOMETHINGELSE"
+    lore:
+      - "&7Idk"
+      - ""
+      - "&c&lSHITTTT"
+    message: "&fYou found &cSHIT"
